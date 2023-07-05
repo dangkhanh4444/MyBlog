@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+}
+
+#background-picture {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-size: cover
+}
+
+.header-nav {
+    position: absolute;
+    top: 7%;
+    left: 26%;
+    text-align: center;
+}
+
+.header-nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 26px;
+}
+
+#name-title {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -240px;
+}
+
+#myName {
+    color: white;
+}
+
+/*----------About Section----------*/
+
+#myPhoto img {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 570px;
+    border: 4px solid white;
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+#about-profile {
+    color: grey;
+    position: absolute;
+    padding: 240px 146px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*----------skill section----------*/
+.section-heading {
+    padding-top: 450px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+#skills-row {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+/*----------ProgressBar---------*/
+.progressBar {
+    position: relative;
+    width: 100%;
+    margin: 20px 20px;
+}
+
+.displayProgress1,
+.displayProgress5 {
+    position: absolute;
+    background-color: #0000ff;
+    height: 37px;
+    width: 50%;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.displayProgress3,
+.displayProgress6 {
+    position: absolute;
+    background-color: #800080;
+    height: 37px;
+    width: 80%;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.displayProgress4 {
+    position: absolute;
+    background-color: #008080;
+    height: 37px;
+    width: 50%;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.displayProgress2 {
+    position: absolute;
+    background-color: #ffa500;
+    height: 37px;
+    width: 85%;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.progressContent {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.bgProgressBar {
+    background-color: #808080;
+    width: 100%;
+    height: 37px;
+    border-radius: 100px;
+}
+
+/*---------favourites---------*/
+.section-heading-favour {
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.col-2 {
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30p;
+}
+
+h3,
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+#favour img {
+    width: 500px;
+    border: 2px dashed darkblue;
+    height: 500px;
+}
+
+#favour span {
+    margin: 20px;
+}
+
+/*---------Education----------*/
+
+.section-heading-education {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+#education {
+    width: 100%;
+}
+
+#education img {
+    width: 1000px;
+    height: 500px;
+    margin: 50px 0px 0px 165px;
+}
+
+/*----------Portfolio----------*/
+.section-heading-education {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.portfolio-display {
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.portfolio-img {
+    margin: 10px;
+    position: relative;
+}
+
+.portfolio-img img {
+    width: 390px;
+    height: 312px;
+}
+
+.portfolio-img:hover {
+    box-shadow: lightseagreen;
+}
+
+.portfolio-img:hover .portfolio-text {
+    background-color: grey;
+    opacity: 0.5;
+    /*Độ đậm nhạt*/
+    color: white;
+}
+
+.portfolio-text {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    color: transparent;
+    /*Màu trong suốt*/
+}
